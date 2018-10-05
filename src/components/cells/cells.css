@@ -1,0 +1,22 @@
+.cells {
+  display: flex;
+}
+.cell {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: inherit;
+  border-bottom: 1px solid #dee3ec;
+  border-left: 1px dashed #d3dfe3;
+  padding: 3px;
+  width: 72px;
+  height: 36px;
+
+}
+
+.cell > div {
+  width: 72px;
+}
